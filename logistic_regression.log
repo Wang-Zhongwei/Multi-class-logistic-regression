@@ -1,0 +1,89 @@
+
+INFO:root:1-vs-others classifier
+INFO:root:Weights: [-1.21030858 -0.89227675 -0.52216111 -0.29502016 -0.4765922  -1.12127545
+ -2.03874815 -0.12981507  2.21705087 -0.31885885]
+INFO:root:Original weights: [-1.21030858e+00 -3.69224473e-01 -1.11267858e+00 -8.35485393e+01
+ -4.59246807e-01 -1.23533953e+00 -1.11235081e+00 -1.18026405e-01
+  8.29661287e+02 -7.30085693e-01]
+INFO:root:y_train: [1 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 1 0 1 0 0]
+INFO:root:Training set score: 1.0
+INFO:root:y_test: [0 0 0 0 0 0]
+INFO:root:Testing set score: 1.0
+
+INFO:root:1-vs-others classifier
+INFO:root:Weights: [-1.76270953 -0.50989687 -0.31321581 -0.12792361 -0.24945031 -0.87987335
+ -1.89392877  0.07573721  2.30099636  0.03787246]
+INFO:root:Original weights: [-1.76270953e+00 -2.10995528e-01 -6.67434850e-01 -3.62274584e+01
+ -2.40371662e-01 -9.69380301e-01 -1.03333666e+00  6.88594172e-02
+  8.61075234e+02  8.67159340e-02]
+INFO:root:y_train: [0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 1 0]
+INFO:root:Training set score: 1.0
+INFO:root:y_test: [1 0 0 1 1 0]
+INFO:root:Testing set score: 1.0
+
+INFO:root:2-vs-others classifier
+INFO:root:Weights: [ 0.26042183  0.52938827  0.72431734 -0.60518799  1.39602869 -0.01999444
+  0.19913238 -0.14048494 -1.75767483 -1.51069207]
+INFO:root:Original weights: [ 2.60421827e-01  2.19061077e-01  1.54345542e+00 -1.71386839e+02
+  1.34522076e+00 -2.20284194e-02  1.08647584e-01 -1.27727333e-01
+ -6.57754309e+02 -3.45900593e+00]
+INFO:root:y_train: [1 0 1 0 1 1 0 1 0 0 0 0 1 1 1 0 1 0 1 1 0]
+INFO:root:Training set score: 0.9047619047619048
+INFO:root:y_test: [1 0 0 0 0 0]
+INFO:root:Testing set score: 0.6666666666666666
+
+INFO:root:2-vs-others classifier
+INFO:root:Weights: [-0.32216438  0.5472723   0.14106203  0.43106723  1.38419579  0.21844448
+  0.32033366  0.07862297 -1.11823633 -1.55415671]
+INFO:root:Original weights: [-3.22164379e-01  2.26461494e-01  3.00590560e-01  1.22076531e+02
+  1.33381851e+00  2.40666202e-01  1.74775586e-01  7.14831239e-02
+ -4.18464639e+02 -3.55852617e+00]
+INFO:root:y_train: [0 1 0 0 1 1 1 0 1 0 0 1 0 0 1 0 1 0 1 0 1]
+INFO:root:Training set score: 0.8571428571428571
+INFO:root:y_test: [0 1 0 0 0 1]
+INFO:root:Testing set score: 0.8333333333333334
+
+INFO:root:3-vs-others classifier
+INFO:root:Weights: [-2.57101909 -1.17107673 -0.94841767  1.19336542 -0.64180316  0.45052627
+  0.09451844  0.49473446 -0.61091394  1.12445971]
+INFO:root:Original weights: [-2.57101909e+00 -4.84592016e-01 -2.02099316e+00  3.37956357e+02
+ -6.18444982e-01  4.96356991e-01  5.15697163e-02  4.49807010e-01
+ -2.28615252e+02  2.57465627e+00]
+INFO:root:y_train: [0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0]
+INFO:root:Training set score: 1.0
+INFO:root:y_test: [1 0 0 0 0 0]
+INFO:root:Testing set score: 0.8333333333333334
+
+INFO:root:3-vs-others classifier
+INFO:root:Weights: [-2.88770275 -0.81449622 -0.88038198  0.98875405 -0.52011323  0.25843954
+  0.09280267  0.25876693 -0.22057723  1.32412598]
+INFO:root:Original weights: [-2.88770275e+00 -3.37038862e-01 -1.87601519e+00  2.80011227e+02
+ -5.01183908e-01  2.84729840e-01  5.06335828e-02  2.35267983e-01
+ -8.25440631e+01  3.03182872e+00]
+INFO:root:y_train: [0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0]
+INFO:root:Training set score: 1.0
+INFO:root:y_test: [0 0 0 1 1 0]
+INFO:root:Testing set score: 0.6666666666666666
+
+INFO:root:4-vs-others classifier
+INFO:root:Weights: [-3.1871408   0.47964407  0.26143427  0.26690157 -0.97356086  0.39657243
+  1.22948728 -0.26825476  0.65557002  0.66542837]
+INFO:root:Original weights: [-3.18714080e+00  1.98476908e-01  5.57093023e-01  7.55854663e+01
+ -9.38128486e-01  4.36914584e-01  6.70814182e-01 -2.43894216e-01
+  2.45326381e+02  1.52362001e+00]
+INFO:root:y_train: [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0]
+INFO:root:Training set score: 1.0
+INFO:root:y_test: [0 0 0 0 0 0]
+INFO:root:Testing set score: 1.0
+
+INFO:root:4-vs-others classifier
+INFO:root:Weights: [-3.08462997  0.84679608  0.03638046 -0.18720611 -0.68428829  0.20454207
+  1.417219   -0.60599644  0.37473834  0.12209161]
+INFO:root:Original weights: [-3.08462997e+00  3.50404553e-01  7.75234952e-02 -5.30160287e+01
+ -6.59383876e-01  2.25349537e-01  7.73241514e-01 -5.50965161e-01
+  1.40233991e+02  2.79551074e-01]
+INFO:root:y_train: [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+INFO:root:Training set score: 1.0
+INFO:root:y_test: [0 0 0 0 0 0]
+INFO:root:Testing set score: 0.8333333333333334
+
